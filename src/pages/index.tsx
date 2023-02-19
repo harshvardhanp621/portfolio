@@ -3,8 +3,9 @@ import Head from "next/head";
 import { About } from "../sections/About";
 import { Intro } from "../sections/Intro";
 import { Navbar } from "../layouts/Navbar";
-import { Projects } from "../sections/Projects";
+import { Experience } from "../sections/Experience";
 import { Connect } from "../sections/Connect";
+import { Projects } from "../sections/Projects";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         <Intro />
         <About />
         <Projects />
+        <Experience />
         <Connect />
       </main>
     </>

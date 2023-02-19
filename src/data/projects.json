@@ -1,15 +1,38 @@
 [
-  {
-    "title": "Web Development Intern",
-    "company": "Celebratious Event Services Pvt Ltd.",
-    "desc": "Developed the Official website and a subsidiary brand's website from scratch as the part of the UI/UX design team",
-    "date": "11/2021 - 07/2022",
-    "live": "https://www.celebratious.com/"
-  },
-  {
-    "title": "Engineering Trainee",
-    "company": "Hindustan Shipyard Ltd.",
-    "desc": "Learned about the process and steps involved in production of ships and got hands-on experience with electrical components of ship. Also, learned about various electronic components present on the ship",
-    "date": "09/2022 - 10/2022"
-  }
+    {
+        "title": "Lend3r",
+        "desc": "Lend3r allows user to give Ethereum as collateral and get DINR as a loan. DINR is pegged close to INR thus it make it easier to utilise for Indian audience. Built using Next.js & Material UI, I have utilitzed Chainlink Oracle to fetch the latest Eth prices.",
+        "date": "Jun 2022",
+        "code": "https://github.com/rakshit087/lend3r",
+        "gallery": "https://devfolio.co/projects/lendr-d1f0",
+        "live": "https://lend3r.vercel.app/",
+        "tags": ["all", "web 3"]
+      },
+      {
+        "title": "Kolumn",
+        "desc": "A decentralized microblogging platform powered by Polygon. Allows users to write and share rich content on Polygon Network. Users are also allowed to tip MATICs to their favorite Kolumns. Built using Next.js and Solidity, Kolumn won prize pool bounty at BuidlIt 2021",
+        "date": "Nov 2021 - Dec 2021",
+        "code": "https://github.com/rakshit087/Kolumn",
+        "gallery": "https://devfolio.co/projects/kolumn-b3f9",
+        "live": "https://kolumn.vercel.app/",
+        "tags": ["all", "web 3"]
+      },
+      {
+        "title": "Kode Editor",
+        "desc": "An online code editor with ability to create and save multiple files. It also allows users to view output of their HTML, CSS and JavaScript. Built using MERN Stack, this was the first project in which I used Docker Containers.",
+        "date": "Jun 2021 - Nov 2021",
+        "code": "https://github.com/rakshit087/KodeEditor",
+        "live": "",
+        "gallery": "https://github.com/rakshit087/KodeEditor#gallery",
+        "tags": ["all", "full stack"]
+      },
+      {
+        "title": "Konnect",
+        "desc": "A simple Social Media application built using the MEVN stack along with Tailwind CSS. Allows users of VIT to interact with each other by posting posts, upvoting, downvoting and commenting.",
+        "date": "Nov 2020",
+        "code": "https://github.com/rakshit087/Konnect",
+        "live": "",
+        "gallery": "https://github.com/rakshit087/Konnect/blob/main/README.md#-gallery",
+        "tags": ["all", "full stack"]
+      }
 ]

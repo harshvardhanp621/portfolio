@@ -24,7 +24,16 @@ export const NavMenu = () => {
         whileHover="hovered"
         whileTap="tapped"
       >
-        My Projects
+        Projects
+      </motion.a>
+      <motion.a
+        href="#experience"
+        className={buttonClasses}
+        variants={linkVariant}
+        whileHover="hovered"
+        whileTap="tapped"
+      >
+        Experience
       </motion.a>
       <motion.a href="#connect" className={buttonClasses} variants={linkVariant} whileHover="hovered" whileTap="tapped">
         Contact Me
