@@ -1,23 +1,7 @@
 import { ProjectCard } from "../components/ProjectCard";
 import data from "../data/projects.json";
-import { useEffect, useState } from "react";
-import { FilterButton } from "../components/FilterButton";
-
-type projects = {
-  title: string;
-  desc: string;
-  company: string;
-  date: string;
-  gallery: string | undefined;
-  code: string | undefined;
-  live: string | undefined;
-  tags: string[];
-}[];
 
 export const Projects = () => {
-  const [tag, setTag] = useState<string>("all");
-  const [projects, setProjects] = useState<any>(data);
-
   return (
     <section
       id="projects"
@@ -28,7 +12,7 @@ export const Projects = () => {
         <div className="flex w-full">
           <div className="mr-4 border border-gray-400 border-2-2"></div>
           <div className="w-full">
-            {projects.map((project : any, id: number) => {
+            {data.map((project : any, id: number) => {
               return (
                 <ProjectCard
                   key={id}
