@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 interface project {
   title: string;
+  company: string;
   desc: string;
   date: string;
   gallery: string | undefined;
@@ -10,7 +11,7 @@ interface project {
   live: string | undefined;
 }
 
-export const ProjectCard = ({ title, desc, date, gallery, code, live }: project) => {
+export const ProjectCard = ({ title, desc, date, gallery, code, live, company }: project) => {
   return (
     <motion.div initial={{ x: -100 }} whileInView={{ x: 0 }} viewport={{ once: true }}>
       <div className="px-2 py-1 mb-2 border border-gray-700 border-solid rounded-full bg-pink-50 w-fit">
@@ -24,7 +25,8 @@ export const ProjectCard = ({ title, desc, date, gallery, code, live }: project)
           }}
         ></div>
         <div className="px-4">
-          <h2 className="mb-4 text-2xl md:text-3xl md:mb-6">{title}</h2>
+          <h2 className="mb-2 text-2xl md:text-3xl">{title}</h2>
+          <h3 className="mb-4 md:mb-6 text-gray-600">{company}</h3>
           <p className="mb-4 md:text-lg md:mb-6">{desc}</p>
           <div className="flex mb-4">
             {live && (

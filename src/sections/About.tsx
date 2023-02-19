@@ -8,12 +8,10 @@ export const About = () => {
         <p className="mb-4 text-3xl font-bold md:text-4xl md:mb-8">About</p>
         <div className="mb-8 text-lg md:text-xl md:mb-16">
           <p className="mb-4">
-            I am a lifelong learner with experience in Full Stack Development and Automation. I am extremly passionate
-            about writing code that has an impact and can bring ideas to life.
+            I am a lifelong learner with expertise in no code tools. I have worked with Shopify, Wix, Wordpress and I can help with integrating custom designs and userflows.
           </p>
           <p>
-            In addition to development, I enjoy playing LoL, travelling, watching anime, listening to music, reading
-            fiction and helping communities and individuals.
+            In addition to development, I enjoy road trips, hitting gym, and connecting with different individuals and communities.
           </p>
         </div>
         <a
